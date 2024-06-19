@@ -6,7 +6,7 @@ public class FacebookConnect {
 
     public static void main(String[] args) {
 
-        String SQL_SELECT="select*from june2020.student";
+        String SQL_SELECT="select * from june2020.student";
 
 
         try(Connection con= DriverManager.getConnection(
